@@ -423,6 +423,10 @@
         "Systeminfo_System_System":"System:",
         "Systeminfo_System_Uname":"Uname:",
         "Systeminfo_System_Uptime":"Betriebszeit:",
-        "Systeminfo_USB_Devices":"USB-Geräte"
+        "Systeminfo_USB_Devices":"USB-Geräte",
+        "History_Back" : "Geh zurück",
+        "History_Forward" : "Vorwärts gehen",
+        "History_Reload" : "Seite neuladen",
+        "Toggle_Fullscreen" : "Vollbild umschalten"
     }
 }

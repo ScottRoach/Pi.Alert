@@ -139,19 +139,19 @@ if ($ENABLED_DARKMODE === True) {
         <ul class="nav navbar-nav">          
 	 <!-- Back Button -->		 
 	 <li>
-	   <a id="back-button" href="javascript:history.go(-1);" role="button" span class='of-bt-icon'><i class='fa fa-arrow-left'></i></a>
+	   <a id="back-button" href="javascript:history.go(-1);" role="button" span class='of-bt-icon' aria-label="<?= lang('History_Back');?>" title="<?= lang('History_Back');?>"><i class='fa fa-arrow-left'></i></a>
 	 </li>
 	 <!-- Next Button -->		 
 	 <li>
-	   <a id="next-button" href="javascript:history.go(1);" role="button" span class='of-bt-icon'><i class='fa fa-arrow-right'></i></a>
+	   <a id="next-button" href="javascript:history.go(1);" role="button" span class='of-bt-icon' aria-label="<?= lang('History_Forward');?>" title="<?= lang('History_Forward');?>"><i class='fa fa-arrow-right'></i></a>
 	 </li>			
 	 <!-- Reload -->		 
 	 <li>
-	   <a id="reload-button" href='#' role="button" span class='of-bt-icon' onclick='location.reload()'><i class='fa fa-repeat'></i></a>
+	   <a id="reload-button" href='#' role="button" span class='of-bt-icon' onclick='location.reload()' aria-label="<?= lang('History_Reload');?>" title="<?= lang('History_Reload');?>"><i class='fa fa-repeat'></i></a>
 	 </li>	
 	 <!-- Full Screen -->		 
 	 <li>
-	   <a id="fullscreen-button" href='#' role="button" span class='of-bt-icon' onclick='toggleFullscreen()'><i class='fa fa-arrows-alt'></i></a>
+	   <a id="fullscreen-button" href='#' role="button" span class='of-bt-icon' onclick='toggleFullscreen()' aria-label="<?= lang('Toggle_Fullscreen');?>" title="<?= lang('Toggle_Fullscreen');?>"><i class='fa fa-arrows-alt'></i></a>
 	 </li>	        
           <!-- Server Status -->
           <li>

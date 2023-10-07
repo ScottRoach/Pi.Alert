@@ -643,6 +643,10 @@
         "Systeminfo_System_System": "Sistema:",
         "Systeminfo_System_Uname": "Uname:",
         "Systeminfo_System_Uptime": "Tiempo de actividad:",        
-        "Systeminfo_USB_Devices": "Dispositivos USB"
+        "Systeminfo_USB_Devices": "Dispositivos USB",
+        "History_Back" : "Regresa",
+        "History_Forward" : "Avanzar",
+        "History_Reload" : "Recargar página",
+        "Toggle_Fullscreen" : "Alternar pantalla completa"
     }
 }
